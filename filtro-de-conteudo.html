@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filtro de conteudo</title>
+    <style>
+        body {
+            background-color: darkgoldenrod;
+            color: black;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem vindo ao site</h1>
+    <p>O conteúdo é visto de acordo com a idade</p>
+    <script>
+            var nome = window.prompt('Qual é o seu nome?')
+            var idade = Number(window.prompt('Quantos anos você tem? '))
+            document.write(idade>=18? 'O usuario está apto para ver o conteudo':'conteudo bloqueado')
+
+        </script>
+</body>
+</html>
